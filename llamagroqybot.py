@@ -5,7 +5,7 @@ import os
 
 # --- Configuration (Keys are HARDCODED) ---
 # Discord Bot Token
-DISCORD_TOKEN = "MTQzODE0MjM3NzQ1NzA5NDgzNw.G7YZKd.PbxKMCL606Okgakse10R485zDMxJwcqlMBNjN8"
+DISCORD_TOKEN = "MTQzODE0MjM3NzQ1NzA5NDgzNw.G44aMs.XzEex4MaIj540XK1mUWsJoA4DmlF9y9AiPmudg"
 # Groq API Key
 GROQ_API_KEY = "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" 
 
@@ -170,4 +170,5 @@ except Exception as e:
 
 if sys.platform.startswith('win'):
     print("\n--- PROGRAM ENDED ---")
+
     input("Press ENTER to close this window...")
